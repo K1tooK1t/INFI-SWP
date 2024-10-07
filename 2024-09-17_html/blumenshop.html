@@ -8,7 +8,10 @@
     <title>Blumengeschäft</title> <!--title tag-->
 </head>
 
-<body> <!--body tag-->
+<body> <!--body tag--> <!--css center-->
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
     <h1 style="text-align: center;">Blumenshop!</h1> <!--style tag-->
     <header style="text-align: center;"> <!--header tag-->
         <div> <!--div tag-->
@@ -21,53 +24,60 @@
 
     <hr> <!--hr tag-->
 
-    <main> <!--main tag-->
-        <article> <!--article tag-->
-            <h3>Arten der Blumen:</h3>
-            <ol> <!--ol tag-->
-                <li>Einjährige Blumen</li> <!--li tag-->
-            </ol>
-            <ul> <!--ul tag-->
-                <li>Sonnenblume</li>
-                <li>Zinnie</li>
-                <li>Ringelblume</li>
-            </ul>
-            <ol>
-                <li>Mehrjährige Blumen</li>
-            </ol>
-            <ul>
-                <li>Rosen</li>
-                <li>Lavendel</li>
-                <li>Astern</li>
-            </ul>
+    <div class="container"> <!--container-->
+        <main> <!--main tag-->
+            <article> <!--article tag-->
+                <h3>Arten der Blumen:</h3>
+                <ol> <!--ol tag-->
+                    <li>Einjährige Blumen</li> <!--li tag-->
+                </ol>
+                <ul> <!--ul tag-->
+                    <li>Sonnenblume</li>
+                    <li>Zinnie</li>
+                    <li>Ringelblume</li>
+                </ul>
+                <ol>
+                    <li>Mehrjährige Blumen</li>
+                </ol>
+                <ul>
+                    <li>Rosen</li>
+                    <li>Lavendel</li>
+                    <li>Astern</li>
+                </ul>
 
-        </article>
-    </main>
+            </article>
+        </main>
+        <div class="position-sticky"> <!--position-->
+            <img src="https://cdn.lokalerflorist.de/general/5b35836a953f4232037b82f0d4a5012c1c25e541726aea361b8bb09db5880eb6/banner_new.webp"
+                alt="Blumenherz">
+            <!--css border-->
+        </div>
 
-    <section><!--section tag-->
-        <h6>Bilder von den Blumen im nachfolgenden Link</h6>
-        <nav> <!--nav tag-->
-            <a href="https://de.123rf.com/free-vector_185305168_verschiedene-blumen.html">Blumenbilder</a> <!--a tag-->
-        </nav>
-    </section>
-    <aside> <!--aside tag-->
-        <h3>Fragen?</h3>
-        <code>Schreiben Sie mir eine Mail. (Mail unten angegeben)</code> <!--code tag-->
-    </aside>
+        <section><!--section tag-->
+            <h6>Bilder von den Blumen im nachfolgenden Link</h6>
+            <nav> <!--nav tag-->
+                <a href="https://de.123rf.com/free-vector_185305168_verschiedene-blumen.html">Blumenbilder</a>
+                <!--a tag-->
+            </nav>
+        </section>
+        <aside> <!--aside tag-->
+            <h3>Fragen?</h3>
+            <code>Schreiben Sie mir eine Mail. (Mail unten angegeben)</code> <!--code tag-->
+        </aside>
 
-    <pre>                           <!--pre tag-->
+        <pre>                           <!--pre tag-->
 !Wichtig!
 Diese Website ist nicht
     zu vertrauen!   
     </pre>
 
-    <p>Zum Schluss ein kleines Gedicht.</p>
-    <blockquote cite="https://www.hauenstein-rafz.ch/de/extra/zitate.php">
-        Am leuchtenden Sommermorgen geh ich im Garten herum.
-        Es flüstern und sprechen die Blumen, Ich aber, ich wandle
-        stumm.
-    </blockquote>
-
+        <p>Zum Schluss ein kleines Gedicht.</p>
+        <blockquote cite="https://www.hauenstein-rafz.ch/de/extra/zitate.php">
+            Am leuchtenden Sommermorgen geh ich im Garten herum.
+            Es flüstern und sprechen die Blumen, Ich aber, ich wandle
+            stumm.
+        </blockquote>
+    </div>
     <hr>
 
     <footer style="text-align: center;"> <!--footer tag-->
@@ -79,6 +89,11 @@ Diese Website ist nicht
         <address><small><a href="san210336@spengergasse.at">san210336@spengergasse.at</a></small></address>
         <!--small tag--> <!--address tag-->
     </footer>
+
+
+    <p>
+        <button onclick="window.location.href='https://www.google.at/?hl=de';" class="btn-lg">Close Website</button>
+    </p>
 </body>
 
 </html>
