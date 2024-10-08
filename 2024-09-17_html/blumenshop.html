@@ -4,6 +4,11 @@
 <head> <!--head tag-->
     <meta charset="UTF-8"> <!--meta tag-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">^
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Blumengeschäft</title> <!--title tag-->
 </head>
@@ -22,7 +27,7 @@
         <p>Website geschlossen an <time datetime="2024-10-31 14:00">Halloween</time></p>
     </header>
     <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container-fluid justify-content-center">
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -30,7 +35,7 @@
         </div>
     </nav>
 
-    <hr> <!--hr tag-->
+    <hr class="thick-hr"> <!--hr tag-->
 
     <div class="container"> <!--container-->
         <main> <!--main tag-->
@@ -86,7 +91,10 @@ Diese Website ist nicht
             stumm.
         </blockquote>
     </div>
-    <hr>
+
+    <a class="btn btn-primary" href="einkauf.html" role="button">Bestellen</a>
+
+    <hr class="thick-hr">
 
     <footer style="text-align: center;"> <!--footer tag-->
         <a href="https://de.wikipedia.org/wiki/Blumen"><em>Hier</em></a> drücken um mehr über Blumen zu erfahren.
