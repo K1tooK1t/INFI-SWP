@@ -27,3 +27,7 @@ button {
     background-color: black;
     margin: 20px 0;
 }
+
+input button {
+    text-align: center;
+}
