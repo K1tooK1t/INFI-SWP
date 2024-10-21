@@ -1,0 +1,44 @@
+body {
+    background-color: #5286C1;
+    justify-content: center;
+}
+
+.nav-item {
+    background-color: #4371A3;
+    margin-block: -10px;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.top {
+    font-size: large;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-item,
+.weather-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.bell-item {
+    display: flex;
+    background-color: #4371A3;
+    justify-content: flex-end;
+    align-items: center;
+    margin-inline: 550px;
+}
+
+
+.img-item {
+    position: relative;
+}

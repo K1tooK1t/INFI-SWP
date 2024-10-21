@@ -8,3 +8,9 @@ function startWatch() {
 function stopWatch() {
     clearInterval(timer);
 }
+
+function resetWatch() {
+    clearInterval(timer);
+    elapsedTime = 0;
+    document.getElementById("time").innerText = "00:00:00";
+}
