@@ -1,0 +1,93 @@
+:root {
+    --color-primary: #00ad6a;
+    --color-secondary: #eafaf1;
+    --color-accent: #1fe374;
+    --color-dark: #080c16;
+    --color-light: #d6dae5;
+    --color-background: #fcfcfc;
+}
+
+body {
+    color: var(--color-dark);
+    background: var(--color-background);
+}
+
+header {
+    background: var(--color-secondary);
+    margin-top: -20px;
+}
+
+nav {
+    display: block;
+}
+
+.card1,
+.card2,
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    flex-direction: row;
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    flex-direction: row !important;
+}
+
+section {
+    background: var(--color-background);
+}
+
+footer {
+    background: var(--color-dark);
+    margin-block: -10px;
+    margin-inline: -10px;
+}
+
+h6 {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-accent);
+}
+
+
+.button {
+    background: var(--color-accent);
+}
+
+.nav-item {
+    margin-block: -10px;
+    padding-left: 10px;
+    list-style-type: none;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.nav-link {
+    color: var(--color-primary);
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.content {
+    flex-direction: row;
+}
+
+.main-content {
+    flex-direction: row;
+}
